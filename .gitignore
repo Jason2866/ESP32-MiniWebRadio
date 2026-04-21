@@ -8,3 +8,4 @@ logs
 managed_components
 dependencies.lock
 
+.DS_Store
