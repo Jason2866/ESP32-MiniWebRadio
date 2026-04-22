@@ -47,7 +47,6 @@ pio run -e esp32s3_OTA -t upload      # OTA upload (requires 8MB+ flash)
 - Pre-build script `env-extra.py` reads optional `.env` file for build flags
 
 ### Debugging
-- Serial monitor at 921600 baud (set in `monitor_speed`)
 - Colored ANSI output (extensive macros in `common.h`)
 - Log level via `CORE_DEBUG_LEVEL` (0=None to 5=Verbose)
 - SerialPrintfln() adds timestamps and buffers to web UI

@@ -1014,7 +1014,7 @@ void stopSong() {
 void setup() {
 
     //---- BEGIN ---------
-    Serial.begin(MONITOR_SPEED);
+    Serial.begin(115200);
     vTaskDelay(1500); // wait for Serial to be ready
     printf("\n\n");
     trim(Version);
